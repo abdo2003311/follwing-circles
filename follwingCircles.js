@@ -67,8 +67,8 @@ class FollwingCircles {
         this.x = this.x + this.v.x;
         this.y = this.y + this.v.y;
 				if (
-						Math.abs(mouse.x - this.x) < 70 &&
-					 	Math.abs(mouse.y - this.y) < 70
+						Math.abs(mouse.x - this.x) < 20 &&
+					 	Math.abs(mouse.y - this.y) < 20
 					 ) {
 						gsap.to(this,{
 						r:0
